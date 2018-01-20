@@ -10,7 +10,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>spring-boot</artifactId>
-
+    <packaging>jar</packaging>
     <properties>
         <spring.version>4.3.10.RELEASE</spring.version>
         <spring.boot.version>1.5.9.RELEASE</spring.boot.version>
