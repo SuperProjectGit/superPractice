@@ -16,7 +16,7 @@ import javax.servlet.ServletContextListener;
  * @create 2018-01-21 1:08
  **/
 @SpringBootApplication
-public class ExampleApplication {
+public class Application {
 
     private final Logger logger = LoggerFactory.getLogger(getClass());
 
@@ -35,7 +35,7 @@ public class ExampleApplication {
     }
 
     public static void main(String[] args) {
-        SpringApplication.run(ExampleApplication.class, args);
+        SpringApplication.run(Application.class, args);
     }
 
 }
